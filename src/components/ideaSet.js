@@ -1,0 +1,130 @@
+const ideaSet = [
+  {
+    id: 1,
+    type: "NPC",
+    attributes: {
+      name: "Bartleby Tuttledunk",
+      appearance: "Very hairy halfling",
+      occupation: "Shopkeeper",
+      age: "Middle-aged",
+      demeanor: "Jovial yet secretive",
+    },
+    secondaryAttributes: {
+      personalGoal: "Find a cure for his cursed singing sword",
+      importantRelationships: "His sister who is the town mayor",
+      specialSkills: "Expert in ancient languages",
+      backstory: "Former adventurer who settled down after a mysterious injury",
+      motivation: "Desires peace but is haunted by his past",
+    },
+  },
+  {
+    id: 2,
+    type: "Wilderness",
+    attributes: {
+      name: "Misty Vales",
+      primaryTerrain: "Forest",
+      climate: "Foggy and damp",
+      flora: "Dense with ancient trees",
+      fauna: "Home to mythical creatures",
+    },
+    secondaryAttributes: {
+      naturalResources: "Rich in rare herbs",
+      localLegends: "Said to be haunted by forest spirits",
+      geographicalFeature: "Contains a hidden elfish shrine",
+      dangers: "Frequent orc raids",
+      accessibility: "Accessible only via the Old Stone Path",
+    },
+  },
+  {
+    id: 3,
+    type: "Creature",
+    attributes: {
+      animalType: "Griffin",
+      quantityGroup: "A pair",
+      habitat: "Mountain peaks",
+      diet: "Large mammals",
+      temperament: "Highly territorial",
+    },
+    secondaryAttributes: {
+      uniqueTrait: "Silver-tipped wings",
+      demeanor: "Aggressive",
+      activity: "Guarding ancient ruins",
+      nestingHabits: "Nests built atop the tallest towers",
+      vulnerability: "Sensitive to bright light",
+    },
+  },
+  {
+    id: 4,
+    type: "Town",
+    attributes: {
+      name: "Glimmerdale",
+      population: "Small town",
+      keyLandmark: "The Glimmering Tower",
+      localEconomy: "Fishing and trade",
+      governance: "Governed by a council of elders",
+    },
+    secondaryAttributes: {
+      notableFeature: "Renowned for its glowing river",
+      economy: "Based on fishing and trade",
+      culturalAspect: "Annual Festival of Lights",
+      historicalEvent: "Was once a battleground in ancient wars",
+      significantPersonality: "Elder Tannis, the wise leader of the council",
+    },
+  },
+  {
+    id: 5,
+    type: "Mystery",
+    attributes: {
+      name: "The Vanishing Duke",
+      location: "The old castle",
+      keyWitness: "The castle gardener",
+      lastSeen: "Night of the grand ball",
+      rumoredCauses: "Suspected magical foul play",
+    },
+    secondaryAttributes: {
+      clue: "A mysterious locket found in the duke's study",
+      suspects: "Including the duke's heir and the castle steward",
+      motive: "Inheritance dispute",
+      keyEvidence: "Magical residues in the duke's chambers",
+      unresolvedQuestion: "The disappearance of the duke's trusted advisor",
+    },
+  },
+  {
+    id: 6,
+    type: "Bad Guy",
+    attributes: {
+      name: "Zorlok the Deceiver",
+      threatLevel: "High",
+      baseOfOperations: "The Dark Fortress",
+      knownAllies: "The Shadow Guild",
+      fearedFor: "Mind control abilities",
+    },
+    secondaryAttributes: {
+      weakness: "Cannot lie in the presence of pure silver",
+      minions: "A horde of mischievous imps",
+      goal: "To overthrow the kingdom",
+      pastCrimes: "Responsible for the fall of the Western Realms",
+      distinguishingMark: "Carries a staff topped with a black crystal",
+    },
+  },
+  {
+    id: 7,
+    type: "Encounter",
+    attributes: {
+      name: "Bridge Ambush",
+      location: "Old Mill Bridge",
+      timeOfDay: "Dusk",
+      weather: "Misty",
+      immediateDanger: "Archers hidden in the woods",
+    },
+    secondaryAttributes: {
+      enemies: "Band of rogue mercenaries",
+      stakes: "The mercenaries demand a toll for crossing",
+      negotiationOption: "Offer them a share of a nearby hidden treasure",
+      potentialAlly: "A local ranger knows the area well",
+      escapeRoute: "An old smuggler's path leads away from the bridge",
+    },
+  },
+];
+
+export default ideaSet;

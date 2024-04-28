@@ -1,0 +1,49 @@
+/* IdeaExpanded.css */
+.idea-expanded-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .idea-expanded-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 50%;
+    min-height: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    position: relative;
+    text-align: left;
+  }
+  
+  .idea-expanded-header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+  }
+  
+  .idea-expanded-body {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+  }
+  
+  .idea-expanded-primary, .idea-expanded-secondary {
+    padding: 10px;
+  }
+  
+  .idea-expanded-image {
+    padding: 10px;
+  }
+  

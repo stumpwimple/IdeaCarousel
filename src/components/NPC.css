@@ -1,0 +1,56 @@
+.npc {
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: transform 0.5s ease, width 0.5s ease, height 0.5s ease;
+    background-color: #fff;
+}
+
+.npc.compact {
+    max-width: 400px;
+    transition: transform 0.5s ease, width 0.5s ease, height 0.5s ease;
+}
+
+.npc.expanded {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    background-color: white;
+    z-index: 1050;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    overflow: hidden;
+}
+
+
+
+.npc-header {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.npc-content {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-gap: 10px;
+    align-items: center;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.npc-content label {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+
+.npc-content input {
+    width: calc(100%);
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}

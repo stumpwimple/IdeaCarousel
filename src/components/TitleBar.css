@@ -1,0 +1,32 @@
+/* Assuming TitleBar.css exists or add this to your global styles */
+.titleBar {
+    height: 50px; /* Adjust based on your design */
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+
+.titleBar h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.signInCircle {
+    width: 40px; /* Diameter of the circle */
+    height: 40px; /* Diameter of the circle */
+    background-color: #4C7BF3; /* Blue background */
+    color: white; /* White text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; /* Makes it circular */
+    font-size: 20px; /* Size of the letter */
+    cursor: pointer;
+}

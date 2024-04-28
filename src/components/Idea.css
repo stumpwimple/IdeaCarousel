@@ -1,0 +1,41 @@
+.idea {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin-bottom: 5px; 
+}
+  
+  .idea-header {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .idea-attributes {
+    display: grid;
+    grid-template-columns: 120px auto;  /* Adjust proportions as necessary */
+    column-gap: 5px;
+    row-gap: 2px;
+  }
+  
+  .attribute-row {
+    display: contents;  /* This helps the label and input align in the grid */
+  }
+  
+  .attribute-row label {
+    grid-column: 1;
+    text-align: left; 
+    padding-right: 10px;
+  }
+  
+  .attribute-row input {
+    grid-column: 2;
+    width: 100%-5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
